@@ -1,1 +1,1 @@
-<h1> Handyfunction </h1>
+<b>Handy Function</b>
