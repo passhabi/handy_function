@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
+import sys
 
 shape = [500]
 
@@ -31,4 +32,5 @@ plt.plot(no_biased_m_avg, label="Corrected biased Moving Average")
 plt.legend()
 plt.show()
 
-#%%
+
+sys.exit(0)
