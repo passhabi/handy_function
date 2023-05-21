@@ -10,12 +10,12 @@ database = {
     }
 
 def check_usr_pass(user, password):
-    if database[user] == password:
-        print(Fore.GREEN, "Logging in was sucessful")
+    if database.get(user, 'none') == password:
+        print(f"{Fore.GREEN}Logging in was sucessful{Fore.RESET}")
         print("Welcome ", user)
         sys.exit(0)
     else:
-        print(Fore.RED, "An error occuerd!")
+        print(f"{Fore.RED}An error occuerd!")
         sys.exit(-1)
         
 username = input("Enter your user name: ")
