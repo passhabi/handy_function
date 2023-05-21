@@ -6,7 +6,9 @@ import sys
 
 database = {
     "admin": "0000",
-    "ali": "12345"
+    "ali": "12345",
+    "javad": "nad@dfsu34",
+    "adfaf": "asdfdddd"
     }
 
 def check_usr_pass(user, password):
