@@ -24,4 +24,5 @@ username = input("Enter your user name: ")
 password = input("Enter you password: ")
 
 if __name__ == "__main__":
+    print("Redericting to password check")
     check_usr_pass(username, password)
