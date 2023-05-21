@@ -1,10 +1,12 @@
+#! /usr/bin/env python3
+from colorama import Fore
 import os
 import sys
 
 
 username = input("Enter your user name:")
-password = input("Enter your password:")
 
 print("Welcome ", username)
-print("An error occuerd!") # data should be checked with datebase.
+print(Fore.RED, "An error occuerd!") # data should be checked with datebase.
+
 sys.exit(-1)
