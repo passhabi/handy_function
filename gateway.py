@@ -15,7 +15,8 @@ def check_usr_pass(user, password):
         sys.exit(0)
     else:
         print(f"{Fore.RED}An error occuerd!")
-        sys.exit(-1)
+        password = input("try again: ")
+        check_usr_pass(user, password)
         
 username = input("Enter your user name: ")
 password = input("Enter you password: ")
